@@ -4,7 +4,11 @@ var App = React.createClass({
 
     render: function(){
       return (
-        <div>Hello, World!</div>
+        <div>
+            <h1>Echo Suggest</h1>
+            <input placeholder='artist name' ref='artistName' />
+            <button >Search</button>
+        </div>
       );
     }
 
